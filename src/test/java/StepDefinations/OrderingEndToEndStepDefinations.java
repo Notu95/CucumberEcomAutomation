@@ -86,7 +86,7 @@ public class OrderingEndToEndStepDefinations {
 	}
 	@Then ("OrderId should be got")
 	public void confirming()  {
-		System.out.println(cfp.getOrderId());
+		System.out.println(cfp.getOrderId()+"helllllllllloooooooo");
 		Assert.assertFalse(cfp.getOrderId().isEmpty());  
 	}
 	
